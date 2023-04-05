@@ -40,6 +40,7 @@ f(x) maps the input features  ‘x’  vector to a scalar value, shifted by a bi
 8. Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’
 9. Assign the learning rate
 10. For ‘N ‘ iterations ,do the following:
+ 
   ![formula4](https://user-images.githubusercontent.com/93427208/229997015-fd5ec7a8-3788-461b-aae9-2858d1042bc7.png)
 
 11. Plot the error for each iteration 
