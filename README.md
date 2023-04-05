@@ -17,9 +17,11 @@ Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 ## The math of Perceptron
 * If we represent samples as vectors of size n, where ‘n’ is the number of its features, a Perceptron can be modeled through the composition of two functions. The first one 
 f(x) maps the input features  ‘x’  vector to a scalar value, shifted by a bias ‘b’
+
 ![formula2](https://user-images.githubusercontent.com/93427208/229996763-131971c3-e302-45c8-aef6-f5d4a544e5a0.png)
 
 * A threshold function, usually Heaviside or sign functions, maps the scalar value to a binary output:
+* 
  ![formula1](https://user-images.githubusercontent.com/93427208/229996776-f7f2abff-b57c-4848-8d48-f0836655197c.png)
 * Indeed if the neuron output is exactly zero it cannot be assumed that the sample belongs to the first sample since it lies on the boundary between the two classes. Nonetheless for the sake of simplicity,ignore this situation.
 
@@ -29,6 +31,7 @@ f(x) maps the input features  ‘x’  vector to a scalar value, shifted by a bi
 2. Importing the dataset
 3. Plot the data to verify the linear separable dataset and consider only two classes
 4. Convert the data set to scale the data to uniform range by using Feature scaling
+5. 
 ![formula3](https://user-images.githubusercontent.com/93427208/229996912-34ff2bbf-7dcb-45ed-aa2b-13e473f2709e.png)
 
 5. Split the dataset for training and testing
@@ -37,7 +40,7 @@ f(x) maps the input features  ‘x’  vector to a scalar value, shifted by a bi
 8. Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’
 9. Assign the learning rate
 10. For ‘N ‘ iterations ,do the following:
-        ![formula4](https://user-images.githubusercontent.com/93427208/229997015-fd5ec7a8-3788-461b-aae9-2858d1042bc7.png)
+  ![formula4](https://user-images.githubusercontent.com/93427208/229997015-fd5ec7a8-3788-461b-aae9-2858d1042bc7.png)
 
 11. Plot the error for each iteration 
 12. Print the accuracy
